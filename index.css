@@ -1,0 +1,79 @@
+html {
+    max-width: 1200px;
+    margin: auto;
+    font-family: DejaVu Sans Mono, monospace;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #e6ffff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 350px;
+    font-weight: bold;
+}
+
+header h1 {
+    margin-left: 20px;
+}
+
+header p {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.aboutMeContainer {
+    display: flex;
+    margin-top: 30px;
+}
+
+p {
+    font-size: 16px;
+    line-height:1.75em
+}
+
+.colorButtonContainer {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+
+.colorButton {
+    margin: auto;
+    width: 100px;
+    height: 75%;
+    background-color: white;
+    text-align: center;
+    box-shadow: 10px 10px 8px #888888;
+    user-select: none;
+    
+}
+
+.colorButton:active {
+    translate: 10px 5px;
+    box-shadow: none;
+}
+
+h2 {
+    margin-bottom: 40px;
+}
+h3 {
+    margin: 10px ;
+}
+
+.linkImg {
+    width: 50px;
+    height: auto;
+}
+
+footer {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
